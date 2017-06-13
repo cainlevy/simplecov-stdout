@@ -1,3 +1,5 @@
-module Simplecov::Stdout
-  VERSION = '0.1.0'
+module Simplecov
+  module Stdout
+    VERSION = '0.1.0'
+  end
 end

@@ -28,6 +28,9 @@ Gem::Specification.new do |spec|
     f.match(%r{^(test|spec|features)/})
   end
 
+  spec.add_dependency 'command_line_reporter'
+
+  spec.add_development_dependency 'simplecov'
   spec.add_development_dependency 'bundler', '~> 1.15'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'minitest', '~> 5.0'

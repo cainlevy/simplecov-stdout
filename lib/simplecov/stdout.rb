@@ -1,5 +1,4 @@
 require 'simplecov/stdout/version'
 
-module Simplecov::Stdout
-  # Your code goes here...
-end
+module SimpleCov; end
+require 'simple_cov/formatter/stdout'
